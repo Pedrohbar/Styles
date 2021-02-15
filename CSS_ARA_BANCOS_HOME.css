@@ -140,6 +140,10 @@ ul.slides {
     width: 20% !important;
     height: 100% !important;
 }
+.marcas .slides li a {
+    display: flex;
+    height: 100%;
+}
 /* } */
 
 
