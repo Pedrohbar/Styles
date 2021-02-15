@@ -105,5 +105,9 @@
     left: 20px;
     display:none;
 }
-
+ul.slides {
+    margin-left: 0px !important;
+}
 /* } */
+
+
