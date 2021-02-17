@@ -138,9 +138,12 @@ ul.slides {
 
 .carousel li {
     margin-right: 0px;
-    width: 20% !important;
+    width: 10% !important;
     height: 100% !important;
+    display: flex !important;
+    justify-content: center;
 }
+
 .marcas .slides li a {
     display: flex;
     height: 100%;
@@ -154,6 +157,7 @@ ul.slides {
     display: flex;
     align-items: center;
 }
+
 
 /* } */
 
