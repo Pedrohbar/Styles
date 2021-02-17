@@ -144,6 +144,16 @@ ul.slides {
     display: flex;
     height: 100%;
 }
+.titulo {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFF;
+    letter-spacing: 0.75px;
+    display: flex;
+    align-items: center;
+}
+
 /* } */
 
 
