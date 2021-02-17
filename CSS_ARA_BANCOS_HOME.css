@@ -133,6 +133,7 @@ ul.slides {
     height: 42px;
     font-family: 'ROBOTO SLAB';
     width: 100% !important;
+    background:#000;
 }
 
 .carousel li {
