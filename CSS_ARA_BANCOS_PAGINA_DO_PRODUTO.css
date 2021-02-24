@@ -1,0 +1,11 @@
+.Container_Menu_Cima {
+    margin: 0px 0px 10px 0px;
+}
+.produto .conteiner-imagem {
+    text-align: initial;
+}
+.zm-viewer img {
+    max-width: inherit;
+    width: 610px !important;
+    height: 465px !important;
+}
