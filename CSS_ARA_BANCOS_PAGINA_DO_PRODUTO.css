@@ -17,15 +17,16 @@
     display: flex;
 }
 .carrinho>a strong {
-    font-size: 14px;
+    font-size: 11px;
     margin: 0;
     line-height: normal;
-    background: #fff;
+    background: #ff7533;
     border-radius: 33px !important;
-    width: 18px;
+    width: 15px;
     position: absolute;
-    right: 16px;
+    right: 18px;
     text-align: center;
+    font-family: 'Roboto Slab';
 }
 .carrinho {
     border-width: 0px;
@@ -34,3 +35,4 @@
     position: unset;
     display: flex;
 }
+
