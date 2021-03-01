@@ -17,6 +17,7 @@
 }
 .Edit_Comprar {
     width: calc(50% - 20px) !important;
+    margin: 21px 0px 0px 0px !important;
 }
 
 .Icone_Carrinho a {
@@ -70,7 +71,6 @@
 }
 .row-fluid.Container_Imagem_Do_Produto_Informacoes_Comprar.span6{
     width:calc(50% - 20px) !important;
-    margin: 21px 0px 0px 0px !important;
 }
 
 #carouselImagem .flex-viewport {
