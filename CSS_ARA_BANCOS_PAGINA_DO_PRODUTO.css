@@ -13,7 +13,7 @@
 
 .Edit_Img {
     width: calc(50% - 20px) !important;
-    height: 535px !important;
+    height: auto !important;
 }
 .Edit_Comprar {
     width: calc(50% - 20px) !important;
