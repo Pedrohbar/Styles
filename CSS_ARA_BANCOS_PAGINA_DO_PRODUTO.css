@@ -72,3 +72,11 @@
     width:calc(50% - 20px) !important;
 }
 
+#carouselImagem .flex-viewport {
+    margin: 0;
+}
+.flex-centered .slides {
+    width: 100% !important;
+    text-align: center;
+    background: transparent;
+}
