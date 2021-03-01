@@ -65,4 +65,7 @@
     text-decoration: none;
     user-select: none;
 }
+.row-fluid.Container_Imagem_Do_Produto_Informacoes_Comprar.span6{
+    width:calc(50% - 20px);
+}
 
