@@ -80,10 +80,11 @@
     text-align: center;
     background: transparent;
 }
-.miniaturas li{
-    background: transparent;
-    
+.flexslider .slides li {
+    height: 100%;
+    background: transparent !important;
 }
+
 .borda-principal, .atributos ul li a:hover, .atributos ul li.active a, .tema-scuro .nav-tabs li.active a, .elastislide-carousel ul li.active a {
     border-color: #adaaa5;
 }
