@@ -33,3 +33,12 @@
     display: flex;
 }
 
+.breadcrumbs.borda-alpha {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.breadcrumbs ul li a {
+    color: #fff;
+}
