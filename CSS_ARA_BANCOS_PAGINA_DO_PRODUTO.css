@@ -100,7 +100,7 @@
 
 span.cor-secundaria {
     display: grid;
-    color: #fff;
+    color: #bfbfbf;
 }
 
 .produto .codigo-produto {
@@ -117,3 +117,7 @@ span.cor-secundaria {
     font-weight: normal;
 }
 
+.Codigo_Produto {
+    display: grid;
+    color: #bfbfbf;
+}
