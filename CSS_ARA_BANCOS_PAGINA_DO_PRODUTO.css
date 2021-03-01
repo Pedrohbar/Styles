@@ -89,3 +89,11 @@
 .borda-principal, .atributos ul li a:hover, .atributos ul li.active a, .tema-scuro .nav-tabs li.active a, .elastislide-carousel ul li.active a {
     border-color: #adaaa5;
 }
+
+.produto .nome-produto {
+    font-size: 30px;
+    line-height: normal;
+    margin: 0;
+    font-family: 'Roboto Slab';
+    color: #fff;
+}
