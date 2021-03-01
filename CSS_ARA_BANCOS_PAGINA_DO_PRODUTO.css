@@ -43,6 +43,7 @@
 .breadcrumbs ul {
     margin: 0;
     display: flex;
+    float: none !important;
 }
 
 .breadcrumbs ul li a {
