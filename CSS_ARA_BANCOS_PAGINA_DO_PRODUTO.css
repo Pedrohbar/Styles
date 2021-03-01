@@ -44,8 +44,13 @@
     margin: 0;
     display: flex;
     float: none !important;
+    font-family: 'Roboto Slab';
 }
 
 .breadcrumbs ul li a {
     color: #fff;
+    padding: 0 5px;
+    font-family: 'Roboto';
+    text-decoration: none;
+    user-select: none;
 }
