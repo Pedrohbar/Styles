@@ -37,6 +37,12 @@
     margin: 0px;
     padding: 0px;
     display: flex;
+    border: 0px;
+}
+
+.breadcrumbs ul {
+    margin: 0;
+    display: flex;
 }
 
 .breadcrumbs ul li a {
