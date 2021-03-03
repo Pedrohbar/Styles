@@ -100,7 +100,7 @@
     background: white;
     width: calc(100% - 40px);
     position: fixed;
-    z-index: 3000;
+    z-index: 6000;
     margin: 0px 0px 0px 0px;
     left: 20px;
     display:none;
