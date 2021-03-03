@@ -99,11 +99,12 @@
     height: 300px;
     background: white;
     width: calc(100% - 40px);
-    position: absolute;
-    z-index: 3;
+    position: fixed;
+    z-index: 3000;
     margin: 0px 0px 0px 0px;
     left: 20px;
     display:none;
+    top:140px;
 }
 .marcas.hidden-phone {
     display: flex;
