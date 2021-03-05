@@ -95,17 +95,7 @@
 
 /* Escopo Motos Dentro da caixa branca { */
 
-.Sub_Menu_Marcas {
-    height: 300px;
-    background: white;
-    width: calc(100% - 40px);
-    position: fixed;
-    z-index: 6000;
-    margin: 0px 0px 0px 0px;
-    left: 20px;
-    display:none;
-    top:139px;
-}
+
 .marcas.hidden-phone {
     display: flex;
     width: 100%;
