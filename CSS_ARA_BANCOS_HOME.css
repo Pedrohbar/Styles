@@ -1,422 +1,160 @@
-body {
-    background: #272727;
+/* Escopo Selecionar Motocicleta {*/
+.Container_Selecionar_Motocicleta {
+    background: #ff7533;
+    width: calc(100% - 40px);
+    height: 73px;
+    border-radius: 3px !important;
+    margin: 0 0 5px 20px;
 }
 
-.barra-inicial {
-    display: none;
+.Organizar_Texto_e_Imagem {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    user-select: none;
 }
 
-.conteiner {
-    max-width: calc(100% - 40px) !important;
+.Icone_Moto_e_Selecionar_Motocicleta {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: calc(20% - 10px);
+    justify-content: center;
 }
 
-.conteiner-principal {
-    padding-top: 145px !important;
+.Container_Icone_Moto {
+    display: flex;
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-#cabecalho {
-    display: none;
+.Container_Texto_Selecione_Sua_Motocicleta {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#barraTopo {
-    display: none !important;
+.Texto_Selecione_Sua_Motocicleta {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: 0.45px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.flexslider {
+.Selects_e_Submit {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form_Selects_Submit {
+    margin: 0 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Selects {
+    height: 38px;
+    width: calc(40% - 20px);
+    margin: 0 20px 0 0;
+    border-radius: 3px !important;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.Botao_Buscar {
+    height: 43px;
+    width: calc(20% - 20px) !important;
+    background: #000;
+    font-family: 'Roboto Slab';
+    color: #fff;
+    border-radius: 3px !important;
+    font-weight: bold;
     border: 0px;
 }
 
-* {
-    border-radius: 0px !important;
+.Botao_Buscar:focus {
+	outline: none;
+}
+/*  }  */
+
+
+
+/* Escopo Motos Dentro da caixa branca { */
+
+
+.marcas.hidden-phone {
+    display: flex;
+    width: 100%;
+    height: 42px;
 }
 
-.banner .flex-control-paging li a {
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    background: transparent;
-    border: 1px solid #fff;
-    border-radius: 10px !important;
+
+
+.marcas .flexslider {
     box-shadow: none;
-}
-
-.banner {
-    position: relative;
-    border-bottom: 10px solid #212121;
-}
-
-.coluna {
-    display: none !important;
-}
-
-
-.row-fluid .span9 {
-    width: calc(100% - 78px) !important;
-}
-
-.conteiner-principal .conteiner {
-    padding: 0;
-    background: #272727;
-    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 0%);
-}
-
-
-.listagem.com-caixa .listagem-item {
     margin: 0;
-    border: 0;
-    background-color: #fff;
-    height: 560px;
-    border-radius: 3px !important;
-    box-shadow: none !important;
-    padding: 21px 20px 20px 20px !important;
-}
-
-.listagem .span3 .imagem-produto, .listagem .produtos-carrossel[data-produtos-linha="4"] .imagem-produto {
-    height: 278px !important;
-}
-
-.listagem .imagem-produto img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    overflow: unset;
     width: 100%;
+    height: 42px;
+}
+
+.flex-viewport {
+    overflow: unset !important;
+    position: unset !important;
+    width: 100% !important;
     height: 100%;
-    margin: 0px !important;
-}
-
-.listagem.com-caixa .listagem-item {
-    margin: 0;
-    border: 0;
-    background-color: #fff;
-    height: 560px;
-    border-radius: 3px !important;
-    box-shadow: none !important;
-}
-
-    .listagem.com-caixa .listagem-item:hover {
-        margin: 0;
-        border: 0;
-        background-color: rgba(255,255,255,0.87) !important;
-        height: 560px;
-        border-radius: 3px !important;
-        box-shadow: none !important;
-    }
-
-
-
-.listagem .listagem-item .nome-produto {
-    font-size: 24px;
-    line-height: 1;
-    word-wrap: break-word;
-    word-break: break-word;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-}
-
-
-.preco-produto .preco-venda {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px;
-    color: #ff7433;
-    letter-spacing: 0.36px;
-    line-height: 18px;
-    padding-top: 5px;
-    width: 100%;
-}
-
-.preco-promocional {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px !important;
-    color: #ff7433;
-    letter-spacing: 0.36px;
-    line-height: 18px;
-    padding-top: 5px;
-    width: 100%;
-    display: flex;
-}
-
-a.nome-produto.cor-secundaria {
-    width: 100%;
-    height: 150px !important;
-    color: #212121;
-}
-
-
-.bandeiras-produto {
-    display: none;
-}
-
-.listagem-item:hover .acoes-produto {
-    bottom: 0%;
-    opacity: 1;
-    filter: alpha(opacity=100);
-}
-
-.listagem-item .acoes-produto {
-    position: absolute;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 10px 20px;
-    border-width: 0px;
-    border-style: dashed;
-    z-index: 15;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    transition: opacity ease-in-out .08s,bottom ease-out .08s;
-    width: calc(100% - 40px);
-    background: rgba(0,0,0,0);
-}
-
-.botao.principal {
-    color: #FFF;
-    display: flex;
-    height: 44px;
-    text-shadow: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.botao {
-    border-radius: 3px !important;
-    border: none;
-    border-bottom-color: rgba(0,0,0,0.2);
-    color: #555;
-    font-size: 16px;
-    line-height: normal;
-    text-transform: none;
-    cursor: pointer;
-    vertical-align: middle;
-    text-align: center;
-    background-color: #FFF;
-    background-image: none !important;
-    white-space: nowrap;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    padding: 0px;
-}
-
-a.botao.botao-comprar.principal:hover {
-    background-color: #9e471e !important;
-}
-
-.Container_Menu_Cima {
-    height: 129px;
-    width: calc(100% - 40px);
-    background: #000;
-    padding: 0px 20px;
-    border-top: 10px solid #ff7533;
-    order: 2;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 52%), 0 3px 10px 0 rgb(0 0 0 / 28%);
-    position: fixed;
-    z-index: 5000;
-}
-
-.Antes_do_Menu {
-    height: 86px;
-    width: 100%;
-    background: #000;
-    border-bottom: 1px solid white;
-    display: flex;
-    justify-content: space-between;
-}
-
-.marcas.hidden-phone {
-    width: 100%;
-    height: 42px;
-    display: flex;
-}
-
-.Img_Logo {
-    display: flex;
-    width: 200px;
-    height: 59px;
-    background: #fff;
-}
-
-
-.Menu {
-    width: 100%;
-    height: 42px;
-    background: #000;
-}
-
-.Logo_Clicavel {
-    width: 82px;
-    height: 77px;
-    background: white;
-    margin: 9px 0px 0px 20px;
-    display: flex;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    margin: 0;
-}
-
-.Menu {
-    font-family: Roboto Slab;
-    font-weight: 700;
-    font-size: 15px;
-    color: #FFF;
-    letter-spacing: 0.75px;
-    display: flex;
-    align-items: center;
-}
-
-
-
-.Container_Cadastrar_e_Entrar_Carrinho {
-    width: 160px;
-    height: 38px;
-    background: #000;
-    display: flex;
-    font-size: 16px;
-    font-family: Roboto;
-    font-weight: bold;
-    user-select: none;
-    color: #fff;
-    margin: 24px 0 24px 0;
-}
-
-.Icone_Carrinho {
-    display: flex;
-    width: 46px;
-    justify-content: center;
-    margin: 0px 0px 0px 5px;
-    cursor: pointer;
-}
-
-.Icone_Carrinho_Edit {
-    display: flex;
-    width: 31px;
-    justify-content: center;
-    align-items: center;
-    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(37deg) brightness(106%) contrast(101%);
-    margin: 5px 0px 0px 0px;
-}
-
-.Entrar {
-    margin: 0px 0px 5px 0px;
-    cursor: pointer;
-}
-
-.Textos_Links_Direcionadores {
-    text-decoration: none;
-    color: #fff
-}
-
-    .Textos_Links_Direcionadores:hover {
-        text-decoration: none;
-        color: #fff
-    }
-
-    .Textos_Links_Direcionadores:focus {
-        text-decoration: none;
-        color: #fff
-    }
-
-
-.Cadastrar {
-    cursor: pointer;
-}
-
-.marcas.hidden-phone {
-    width: 100%;
-    height: 42px;
-    display: flex;
-}
-
-.flexslider.carousel {
-    margin: 0;
-    width: 100%;
-    height: 42px;
-    display: flex;
 }
 
 ul.slides {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background: #000;
-}
-
-.flexslider .slides > li {
-    display: flex;
-    -webkit-backface-visibility: hidden;
-}
-
-.flexslider .slides li {
-    height: 100%;
-    background: #000;
+    margin-left: 0px !important;
+    height: 42px;
+    font-family: 'ROBOTO SLAB';
+    width: 100% !important;
+    background:#000;
 }
 
 .carousel li {
-    margin: 0;
-}
-
-.marca-nome b {
-    font-family: Roboto Slab;
-    font-weight: 700;
-    font-size: 15px;
-    color: #FFF;
-    letter-spacing: 0.75px;
-    display: flex;
-    align-items: center;
-    height: 100%;
+    margin-right: 0px;
+    width: initial !important;
+    height: 100% !important;
+    display: flex !important;
     justify-content: center;
-    text-transform: uppercase;
-    padding: 0px 15px 0px 15px;
-    user-select: none;
 }
-
-    .marca-nome b:hover {
-        font-family: Roboto Slab;
-        font-weight: 700;
-        font-size: 15px;
-        color: #000;
-        letter-spacing: 0.75px;
-        display: flex;
-        align-items: center;
-        height: 100%;
-        justify-content: center;
-        text-transform: uppercase;
-        padding: 0px 15px 0px 15px;
-        background: #fff;
-        user-select: none;
-    }
 
 .marcas .slides li a {
-    display: block;
+    display: flex;
     height: 100%;
-    position: relative;
-    width: 100%;
-    text-decoration: none;
 }
 
-.Sub_Menu_Marcas {
-    height: 300px;
-    background: white;
-    width: calc(100% - 40px);
-    position: fixed;
-    z-index: 6000;
-    margin: 0px 0px 0px 0px;
-    left: 20px;
-    display: none;
-    top: 139px;
-    overflow: auto;
+/* } */
+
+.listagem .titulo-categoria {
+    display: flex;
+    font-size: 22px;
+    margin: 15px 0px 0px 0px !important;
+    padding: 0px;
+    border: 0px !important;
+    justify-content: center;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    color: #fff;
+}
+.listagem .titulo-categoria:hover {
+    text-decoration: none;
+    background: unset !important;
+    padding-left: 0 !important;
 }
