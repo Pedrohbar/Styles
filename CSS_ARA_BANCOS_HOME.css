@@ -142,4 +142,10 @@ ul.slides {
 
 /* } */
 
+.listagem .titulo-categoria:hover {
+    text-decoration: none;
+    background: rgba(0,0,0,0.05);
+    padding-left: 0 !important;
+}
+
 
