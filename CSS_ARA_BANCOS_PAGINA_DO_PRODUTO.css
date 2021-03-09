@@ -14,7 +14,7 @@
 }
 
 .Edit_Img {
-    width: calc(50% - 20px) !important;
+    width: calc(50% - 112px) !important;
     height: auto !important;
 }
 .Edit_Comprar {
@@ -120,3 +120,4 @@ span.cor-secundaria {
     display: grid;
     color: #bfbfbf;
 }
+
