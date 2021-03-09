@@ -162,6 +162,6 @@ ul.slides {
     padding:0px !important;
     display:flex !important;
 }
-.Edit_Listas_Sub_Menu_Marcas ul {
+.Edit_Listas_Sub_Menu_Marcas ul:not(.row-fluid) {
 	display:flex !important;
 }
