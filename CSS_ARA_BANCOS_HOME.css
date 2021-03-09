@@ -159,9 +159,9 @@ ul.slides {
     padding-left: 0 !important;
 }
 .Edit_Listas_Sub_Menu_Marcas ul li {
-    padding: 6px 0px 0px 10px !important;
+    padding: 4px 0px 0px 20px !important;
     display: flex !important;
-    width: calc(50% - 10px);
+    width: calc(50% - 50px);
 }
 .Edit_Listas_Sub_Menu_Marcas ul:not(.row-fluid) {
     display: flex !important;
