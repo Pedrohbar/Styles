@@ -142,33 +142,4 @@ ul.slides {
 
 /* } */
 
-.listagem .titulo-categoria {
-    display: flex;
-    font-size: 22px;
-    margin: 12px 0px 0px 0px !important;
-    padding: 0px;
-    border: 0px !important;
-    justify-content: center;
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    color: #fff;
-}
-.listagem .titulo-categoria:hover {
-    text-decoration: none;
-    background: unset !important;
-    padding-left: 0 !important;
-}
-.Edit_Listas_Sub_Menu_Marcas ul li {
-    padding: 4px 0px 0px 20px !important;
-    display: flex !important;
-    width: calc(50% - 50px);
-}
-.Edit_Listas_Sub_Menu_Marcas ul:not(.row-fluid) {
-    display: flex !important;
-    flex-wrap: wrap;
-}
-.Sub_Menu_Marcas .Edit_Listas_Sub_Menu_Marcas ul .listagem-linha .row-fluid{
-    display:flex;
 
-
-}
