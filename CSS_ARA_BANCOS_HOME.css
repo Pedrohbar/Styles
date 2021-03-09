@@ -159,11 +159,16 @@ ul.slides {
     padding-left: 0 !important;
 }
 .Edit_Listas_Sub_Menu_Marcas ul li {
-    padding: 5px 23px 0px 6px !important;
+    padding: 6px 0px 0px 10px !important;
     display: flex !important;
-    width: calc(50% - 40px);
+    width: calc(50% - 10px);
 }
 .Edit_Listas_Sub_Menu_Marcas ul:not(.row-fluid) {
     display: flex !important;
     flex-wrap: wrap;
+}
+.Sub_Menu_Marcas .Edit_Listas_Sub_Menu_Marcas ul .listagem-linha .row-fluid{
+    display:flex;
+
+
 }
