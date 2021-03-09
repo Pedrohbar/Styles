@@ -14,8 +14,9 @@
 }
 
 .Edit_Img {
-    width: calc(50% - 112px) !important;
+    width: calc(50% - 132px) !important;
     height: auto !important;
+    margin: 0px 20px 0px 0px;
 }
 .Edit_Comprar {
     width: calc(50% - 20px) !important;
