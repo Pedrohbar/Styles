@@ -161,6 +161,23 @@ ul.slides {
 .Edit_Listas_Sub_Menu_Marcas ul li{
     padding:0px !important;
 }
+
+
+
 .Editar_Marcas_Moto{
     padding:0px !important;
+    margin: 0;
+    border: 0;
+    background-color: #fff;
+    height: 321px;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+}
+.Editar_Marcas_Moto:hover {
+    margin: 0;
+    border: 0;
+    background-color: rgba(255,255,255,0.87) !important;
+    height: 321px;
+    border-radius: 3px !important;
+    box-shadow: none !important;
 }
