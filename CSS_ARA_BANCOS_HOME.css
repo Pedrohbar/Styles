@@ -160,6 +160,7 @@ ul.slides {
 }
 .Edit_Listas_Sub_Menu_Marcas ul li{
     padding:0px !important;
+    display:flex !important;
 }
 .Edit_Listas_Sub_Menu_Marcas ul {
 	display:flex !important;
