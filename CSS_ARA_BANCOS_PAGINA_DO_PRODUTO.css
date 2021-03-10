@@ -140,4 +140,7 @@ span.cor-secundaria {
 .Espacar_Preco_E_Botao{
     height: 25%;
 }
+.comprar {
+    float: left !important;
+}
 
