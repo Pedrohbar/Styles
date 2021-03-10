@@ -184,3 +184,7 @@ a.atributo-item {
     margin-bottom: 16px;
     padding-top: 18px
 }
+.abas_custom_edit .tab-content {
+    box-shadow: 0 0 0 !important;
+    padding: 0;
+}
