@@ -123,3 +123,18 @@ span.cor-secundaria {
     color: #bfbfbf;
 }
 
+.Editar_div_Comprar {
+    height: 100%;
+}
+
+.info-principal-produto {
+    height: 20%;
+}
+
+.atributos {
+    height: 20%;
+}
+.Editar_div_Comprar .acoes-produto .disponivel{
+    height:60%;
+}
+
