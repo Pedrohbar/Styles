@@ -147,3 +147,12 @@ span.cor-secundaria {
     color: white;
     text-decoration: none;
 }
+
+.disponibilidade-produto{
+
+	font-size:14px
+}
+
+.disponibilidade-produto b{
+	color:#30e342
+}
