@@ -169,12 +169,12 @@ span.cor-secundaria {
 a.atributo-item {
     border-color: #FF7433 !important;
 }
-.Container_Texto_Descricao_Produtos{
+.Container_Texto_Descricao_Produto{
 	width:100%;
 	height:50px;
 	
 }
-.Texto_Descricao_Produtos{
+.Texto_Descricao_Produto{
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 16px;
