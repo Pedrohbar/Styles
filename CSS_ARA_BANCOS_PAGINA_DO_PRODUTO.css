@@ -150,9 +150,9 @@ span.cor-secundaria {
 
 .disponibilidade-produto{
 
-	font-size:14px
+	font-size:14px !important;
 }
 
 .disponibilidade-produto b{
-	color:#30e342
+	color:#30e342;
 }
