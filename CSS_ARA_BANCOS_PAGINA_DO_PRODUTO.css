@@ -177,7 +177,7 @@ a.atributo-item {
 .Texto_Descricao_Produto{
     font-family: 'Roboto Slab';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     color: #ff7433;
     letter-spacing: 0.5px;
     line-height: 18px;
@@ -187,4 +187,8 @@ a.atributo-item {
 .abas_custom_edit .tab-content {
     box-shadow: 0 0 0 !important;
     padding: 0;
+}
+.abas-custom.abas_custom_edit {
+    color: #fff;
+    font-size: 13px;
 }
