@@ -182,7 +182,8 @@ a.atributo-item {
     letter-spacing: 0.5px;
     line-height: 18px;
     margin-bottom: 16px;
-    padding-top: 18px
+    padding-top: 18px;
+    user-select: none;
 }
 .abas_custom_edit .tab-content {
     box-shadow: 0 0 0 !important;
@@ -195,4 +196,5 @@ a.atributo-item {
 .aproveite-tambem h4 {
     color: #fff;
     font-size: 25px;
+    user-select: none;
 }
