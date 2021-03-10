@@ -20,6 +20,7 @@
 }
 .Edit_Comprar {
     width: calc(50% - 20px) !important;
+    height: 490px !important;
     margin: 21px 0px 0px 0px !important;
 }
 
