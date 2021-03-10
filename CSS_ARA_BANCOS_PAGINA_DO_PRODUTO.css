@@ -143,4 +143,7 @@ span.cor-secundaria {
 .comprar {
     float: left !important;
 }
-
+.pull-right a{
+    color: white;
+    text-decoration: none;
+}
