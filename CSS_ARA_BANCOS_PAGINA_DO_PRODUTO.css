@@ -134,7 +134,10 @@ span.cor-secundaria {
 .atributos {
     height: 20%;
 }
-.Editar_div_Comprar .acoes-produto{
-    background:green;
+.Editar_div_Comprar .acoes-produto {
+    height: calc(60% - 22px);
+}
+.Editar_div_Comprar .acoes-produto:first-child{
+    height:25%
 }
 
