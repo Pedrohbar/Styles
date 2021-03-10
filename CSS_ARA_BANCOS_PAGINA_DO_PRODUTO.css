@@ -156,3 +156,16 @@ span.cor-secundaria {
 .disponibilidade-produto b{
 	color:#30e342;
 }
+
+.atributo-cor{
+    color:#BFBFBF;
+}
+
+.atributos .atributo-cor span .cor-secundaria{
+	color:#BFBFBF
+
+}
+
+a.atributo-item {
+    border-color: #FF7433 !important;
+}
