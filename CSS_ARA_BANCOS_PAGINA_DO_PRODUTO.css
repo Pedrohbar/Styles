@@ -137,7 +137,7 @@ span.cor-secundaria {
 .Editar_div_Comprar .acoes-produto {
     height: calc(60% - 22px);
 }
-.Editar_div_Comprar .acoes-produto:first-child{
-    height:25%
+.Editar_Preco_Sem_Classe {
+    height: 25%;
 }
 
