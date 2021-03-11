@@ -1,4 +1,11 @@
-.Footer{
-background:blue !important
-
+html.js.no-touch.csstransforms.csstransitions {
+    height: 100%;
+}
+.pagina-login {
+    height: 100%;
+    width: 100%;
+}
+.conteiner-principal {
+    padding-top: 145px !important;
+    height: calc(100% - 145px);
 }
