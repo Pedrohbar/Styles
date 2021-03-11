@@ -148,9 +148,9 @@ span.cor-secundaria {
     text-decoration: none;
 }
 
-.disponibilidade-produto{
-
-	font-size:14px !important;
+.disponibilidade-produto {
+    font-size: 14px !important;
+    margin: 8px 0px 0px 0px !important;
 }
 
 .disponibilidade-produto b{
