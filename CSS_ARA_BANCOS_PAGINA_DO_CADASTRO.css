@@ -9,3 +9,12 @@ html.js.no-touch.csstransforms.csstransitions {
     padding-top: 145px !important;
     height: calc(100% - 145px);
 }
+#corpo {
+    height: 100%;
+}
+.conteiner-principal .conteiner {
+    padding: 0;
+    background: #272727;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 0%);
+    height: 100%;
+}
