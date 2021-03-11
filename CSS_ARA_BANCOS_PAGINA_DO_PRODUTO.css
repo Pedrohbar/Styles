@@ -198,3 +198,6 @@ a.atributo-item {
     font-size: 25px;
     user-select: none;
 }
+.tab-pane span{
+    color:#fff !important;
+}
