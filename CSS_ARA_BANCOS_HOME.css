@@ -102,6 +102,10 @@ ul.slides {
     height: 100%;
 }
 
+.Icone_Moto_Espelho {
+    transform: scaleX(-1);
+}
+
 /* } */
 
 
