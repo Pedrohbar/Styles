@@ -1,1 +1,31 @@
-
+div#corpo {
+    color: #fff;
+}
+.cabecalho-interno .span12 h1 {
+    color: #fff;
+}
+.cabecalho-interno .titulo small {
+    font-size: 19px;
+    /* text-transform: none; */
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto';
+}
+.cadastro legend {
+    line-height: normal;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+.cadastro legend {
+    line-height: normal;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    border-color: #ff7433;
+}
+.row-fluid.cor-principal {
+    color: #fff;
+}
